@@ -1,0 +1,14 @@
+# PR Review Agent Dependencies
+# Install with: pip install -r requirements.txt
+
+# GitHub API
+requests>=2.31.0
+
+# Anthropic Claude
+anthropic>=0.25.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Type hints
+typing-extensions>=4.8.0

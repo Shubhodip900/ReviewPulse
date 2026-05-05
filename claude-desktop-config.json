@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "pr-reviewer": {
+      "command": "REPLACE_WITH_YOUR_PATH/venv/bin/python",
+      "args": ["REPLACE_WITH_YOUR_PATH/src/mcp_server.py"],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}",
+        "ANTHROPIC_BASE_URL": "${ANTHROPIC_BASE_URL}",
+        "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY}",
+        "ANTHROPIC_MODEL": "claude-3-5-sonnet-20241022",
+        "POST_COMMENTS": "false",
+        "SKILLS_PATH": "REPLACE_WITH_YOUR_PATH/skills/skill.md"
+      }
+    }
+  }
+}
